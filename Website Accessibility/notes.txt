@@ -1,0 +1,39 @@
+NOTES:
+
+Types of Disabilities:
+  - Attention-Deficit/Hyperactivity Disorders
+  - Blindness or Low Vision
+  - Brain Injuries
+  - Deaf/Hard-of-hearing
+  - Learning Disabilities
+  - Physical Disabilities
+  - Speech and Language Disabilities
+
+Key takeaways:
+  - All websites should be Perceivable, Operable, Understandable and Robust
+  - Custom components are a big area that needs accessibility coverage. Making your own checkbox or button can negate the built it accessibile functionality that comes with HTML elements
+
+
+WebAim Checklist:
+  - Awesome checklist broken up by element/content type
+    - https://webaim.org/standards/wcag/checklist
+
+SECTIONS:
+
+  Keyboard Navigation:
+    - Major sites have implemented keyboard shortcuts for quick actions (Twitter, Reddit etc - use shift+? to see)
+    - Tab-able elements by default
+      - <a>
+      - <button>
+      - <input>
+      - <select>
+      - <textarea>
+      - <iframe>
+    - Tabindex values
+      - a negative value means the element is focusable but not reachable via keyboard Navigation
+      - 0 (zero) means the element should be focusable and reachable with keyboard navigation.
+      - a positive value means focusable and reachable with keyboard navigation. Relative order is defined by the value of the attribute. If elements share a same tabindex then it will go in order by position in the document
+    - Skip Links
+      - WebAim technique page: https://webaim.org/techniques/skipnav/
+      - Checkout nytimes.com - They have an awesome 'Skip to navigation' and 'Skip to Site Index' links once you start tabbing on the page
+      - Great way to allow users to skip to important parts of the content.
