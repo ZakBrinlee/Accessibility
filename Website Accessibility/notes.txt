@@ -55,3 +55,29 @@ SECTIONS:
     - Look at `focusable` module. Which simply returns a string of all focusable elements to use with selecto
       - a[href], area[href], input:not([disabled]):not([type="hidden"]), select:not([disabled]), textarea:not([disabled]), button:not([disabled]), iframe, object, embed, [tabindex="0"], [contenteditable], audio[controls], video[controls], summary, [tabindex^="0"], [tabindex^="1"], [tabindex^="2"], [tabindex^="3"], [tabindex^="4"], [tabindex^="5"], [tabindex^="6"], [tabindex^="7"], [tabindex^="8"], [tabindex^="9"]
 
+  Screen Readers:
+    - Most popular desktop screen Readers
+      - JAWS (W)
+      - ZoomText (Mac & W)
+      - Window-Eyes (W)
+      - NVDA (W)
+      - VoiceOver (Mac)
+      - ChromeVox (Browser)
+    - Alternative text
+      - Be accurate
+      - Be succinct
+      - Don't be redundant
+      - Don't use "image of" or "graphic of"
+      -- alt="" - intentionally skip element with empty string
+      --- USE THIS WITH DECORATIVE IMAGES THAT ADD NO CONTENT
+      - Hiding from screenreaders
+      -- 'display: none' - 'visibility: hidden' - '<input hidden/>'
+      - Labels:
+      -- aria-labelledby - this can take in multiple elements such as 'billing name'
+      -- aria-roles - 
+      -- aria-roles listing: https://www.w3.org/WAI/PF/aria/roles
+
+
+
+
+
