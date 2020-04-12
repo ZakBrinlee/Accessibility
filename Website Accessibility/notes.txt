@@ -77,6 +77,11 @@ SECTIONS:
       -- aria-roles - 
       -- aria-roles listing: https://www.w3.org/WAI/PF/aria/roles
 
+  Semantic HTML:
+    - Make sure the language is defined in the HTML lang attribute (<html lang="eng">)
+    - Elements with inherited functionality should used
+    -- If recreate a element then make sure it has the same functionality of what you replaced
+    - HTML Headers (option + ctrl + u) when using screen reader/voice over
 
 
 
