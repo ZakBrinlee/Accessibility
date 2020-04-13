@@ -18,15 +18,16 @@ WebAim Checklist:
     - https://webaim.org/standards/wcag/checklist
 
 SECTIONS:
+
 Keyboard Navigation:
   - Major sites have implemented keyboard shortcuts for quick actions (Twitter, Reddit etc - use shift+? to see)
   - Tab-able elements by default
-    - <a>
-    - <button>
-    - <input>
-    - <select>
-    - <textarea>
-    - <iframe>
+    - '<a>'
+    - '<button>'
+    - '<input>'
+    - '<select>'
+    - '<textarea>'
+    - '<iframe>'
   - Tabindex values
     - a negative value means the element is focusable but not reachable via keyboard Navigation
     - 0 (zero) means the element should be focusable and reachable with keyboard navigation.
