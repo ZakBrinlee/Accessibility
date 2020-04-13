@@ -1,4 +1,4 @@
-#NOTES:#
+# NOTES: #
 
 **Types of Disabilities:**
   * Attention-Deficit/Hyperactivity Disorders
@@ -17,7 +17,7 @@
   * Awesome checklist broken up by element/content type
     * https://webaim.org/standards/wcag/checklist
 
-##SECTIONS:##
+## SECTIONS: ##
 
 **Keyboard Navigation:**
   * Major sites have implemented keyboard shortcuts for quick actions (Twitter, Reddit etc - use shift+? to see)
