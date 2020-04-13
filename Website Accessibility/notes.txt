@@ -99,6 +99,13 @@ SECTIONS:
       -- aria-live - "off/polite/assertive"
       -- aria-relevant = "additions/removals/text/all"
 
+  Color:
+    - NoCoffee - Chrome extension that is a vision simulator for understanding the problems faced by people with slight to extreme vision problems.
+    -- https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl
+    - Color is not used as sole method of conveying content or distinguishing visual elements.
+    - Should not distinguish links only by being blue to be be compliant.
+
+
 
 
 

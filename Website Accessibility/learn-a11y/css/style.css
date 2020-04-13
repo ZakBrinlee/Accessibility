@@ -11,18 +11,18 @@ main {
 
 .colors-one,
 .colors-one h2 {
-  color: #ebea76;
+  color: #59560D;
 }
 
 .colors-two,
 .colors-two h2 {
-  background: #00cd34;
-  color: #bc00bb;
+  background: #002E00;
+  color: #fff;
 }
 
 .colors-three,
 .colors-three h2 {
-  background: green;
+  background: black;
   color: red;
 }
 
