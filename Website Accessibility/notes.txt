@@ -105,8 +105,13 @@ SECTIONS:
     - Color is not used as sole method of conveying content or distinguishing visual elements.
     - Should not distinguish links only by being blue to be be compliant.
 
-
-
+  Tools:
+    - Chrome Accessibility Developer tools
+    - Tenon.io - Accessibility as a service - https://tenon.io/
+    -- API to be integrated with build pipeline to identify and test accessibility'
+    - Tota11y - accessibility visualization toolkit - https://khan.github.io/tota11y/
+    -- Can add to any site for interactive accessibility visualization audit'
+    - React - react-a11y - static analysis while developing
 
 
 
