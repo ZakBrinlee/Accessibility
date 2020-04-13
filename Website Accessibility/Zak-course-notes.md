@@ -49,8 +49,22 @@
     * Check to see if its the tab key or shift+tab
     * If moving forward and on the last item => focus the first item
     * If moving backward and on the first item => focus the last item
-  * Look at `focusable` module. Which simply returns a string of all focusable elements to use with selecto
-    * a[href], area[href], input:not([disabled]):not([type="hidden"]), select:not([disabled]), textarea:not([disabled]), button:not([disabled]), iframe, object, embed, [tabindex="0"], [contenteditable], audio[controls], video[controls], summary, [tabindex^="0"], [tabindex^="1"], [tabindex^="2"], [tabindex^="3"], [tabindex^="4"], [tabindex^="5"], [tabindex^="6"], [tabindex^="7"], [tabindex^="8"], [tabindex^="9"]
+  * Look at `focusable` module. Which simply returns a string of all focusable elements to use with selector
+    * a[href]
+    * area[href]
+    * input:not([disabled]):not([type="hidden"])
+    * select:not([disabled])
+    * textarea:not([disabled])
+    * button:not([disabled])
+    * iframe
+    * object
+    * embed
+    * [tabindex="0"]
+    * [contenteditable]
+    * audio[controls]
+    * video[controls]
+    * summary
+    * [tabindex^="0"], [tabindex^="1"], [tabindex^="2"], [tabindex^="3"], [tabindex^="4"], [tabindex^="5"], [tabindex^="6"], [tabindex^="7"], [tabindex^="8"], [tabindex^="9"]
 
 **Screen Readers:**
   * Most popular desktop screen Readers
@@ -110,10 +124,14 @@
     * Can add to any site for interactive accessibility visualization audit'
   * React - react-a11y - static analysis while developing
   * Get keycode info quickly - http://keycode.info/
-
+  * Accessible colors: https://accessible-colors.com/
+  * Color contrast checker: https://webaim.org/resources/contrastchecker/
 
 **Auditing Sites and Q&A:**
   * Dropdown with flyouts should only show when the dropdown is enabled
     * Use javascript to assert tabindex to child elements when parent dropdown is activated
   * Starbucks.com - awesome navigation with keyboard functionality
   * Safari browser has another layer of accessibility preferences that can be the reason why features are not working during testing (2017)
+  * reCHAPTCHA can be very difficult for accessibility
+  * two-factor auth: very difficult if requires a user to use their mobile phone for auth
+  * CSUN Assistive Technology Conference - largest conference for accessibility technology
