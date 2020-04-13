@@ -72,16 +72,33 @@ SECTIONS:
       --- USE THIS WITH DECORATIVE IMAGES THAT ADD NO CONTENT
       - Hiding from screenreaders
       -- 'display: none' - 'visibility: hidden' - '<input hidden/>'
-      - Labels:
-      -- aria-labelledby - this can take in multiple elements such as 'billing name'
-      -- aria-roles - 
-      -- aria-roles listing: https://www.w3.org/WAI/PF/aria/roles
+    - Labels:
+    -- aria-labelledby - this can take in multiple elements such as 'billing name'
+    -- aria-roles - 
+    -- aria-roles listing: https://www.w3.org/WAI/PF/aria/roles
 
   Semantic HTML:
     - Make sure the language is defined in the HTML lang attribute (<html lang="eng">)
     - Elements with inherited functionality should used
     -- If recreate a element then make sure it has the same functionality of what you replaced
     - HTML Headers (option + ctrl + u) when using screen reader/voice over
+
+  ARIA:
+    - Example of needing to use a '<span class="button>Click Me </span>' as a button and what it would need to be compliant
+      - Add a role => 'role="button"' --spans are not focusable 
+      - Add a tabindex => 'tabindex="0"' --spans are not tabbable
+      - Add an onClick() listener => onclick="btnClicked()"'
+      - Add an onKeyUp() listener => onKeyUp="btnClicked()"'
+    - ARIA-DESCRIBEDBY
+     -- Used for longer descriptions are actions or navigation that are longer than a label should be
+    - ARIA CSS Selectors
+      - .dropdown[aria-expanded="false"] .icon::after { content: '>'; }
+    - ARIA-LIVE
+      - Regions on the site that are more focused and interactive
+      - Regions that will have updates
+      -- aria-live - "off/polite/assertive"
+      -- aria-relevant = "additions/removals/text/all"
+
 
 
 
